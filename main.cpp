@@ -43,18 +43,6 @@ int main() {
     }
   }
 
-  // // Do a stepped sweep
-  // for(auto j = 0u; j < SWEEPS; j++) {
-  //   for(auto i = 0u; i < STEPS; i++) {
-  //     s.to_percent(i, 0, STEPS, 0.0 - SWEEP_EXTENT, SWEEP_EXTENT);
-  //     sleep_ms(STEPS_INTERVAL_MS);
-  //   }
-  //   for(auto i = 0u; i < STEPS; i++) {
-  //     s.to_percent(i, STEPS, 0, 0.0 - SWEEP_EXTENT, SWEEP_EXTENT);
-  //     sleep_ms(STEPS_INTERVAL_MS);
-  //   }
-  // }
-
   // Disable the servo
   s1.disable();
   s2.disable();
